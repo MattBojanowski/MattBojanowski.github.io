@@ -4,6 +4,20 @@ body {
 
 }
 
+.assignment {
+    background: red;
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background:lightgray;
+}
+
+.assignment img{
+    width:475px;
+    padding:10px;
+    height:375px;
+}
+
 h1 {
     color:rgb(27, 11, 133);
 }
