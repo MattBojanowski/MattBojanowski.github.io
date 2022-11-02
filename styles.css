@@ -4,19 +4,32 @@ body {
 
 }
 
-.assignment {
-    background:#F0FFF0;
+.assignments{
     display:flex;
-    padding:10px;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:fit-content;
+    background:#F0FFF0;
+    padding:10px 15px;
     margin:10px;
     background:lightgray;
 }
 
+h2{
+    text-align:center;
+}
+
 .assignment img{
+    
     width:475px;
     margin: 10px;
     height:375px;
     border:2px solid #800000;
+
+    display:block;
+    margin:auto;
 }
 
 h1 {
